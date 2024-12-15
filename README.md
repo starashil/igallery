@@ -56,6 +56,21 @@ Gallery.html
             margin-top: 200px;
             justify-content: center;
         }
+
+        footer{
+            bottom:2%;
+            position: fixed;
+            width:100%;
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm18eBadaqCzW5XTKA-c434AR5co6NgyoT9w&s");
+            text-align: center;
+            font-style: arial;
+            color: aliceblue;
+            left:0%;
+            background-size:cover;
+            padding:20px;
+            font-size:18px;
+
+        }
     </style>
 
     <body>
@@ -66,7 +81,7 @@ Gallery.html
             <img src="2.jpg" width="200" height="200" onclick="openImage(this.src)">
             <img src="5.avif" width="200" height="200" onclick="openImage(this.src)">
             <img src="4.png" width="200" height="200" onclick="openImage(this.src)">
-            <img src="3.jpg" width="200" height="200" onclick="openImage(this.src)">
+            
         </div>
 
         <script>
@@ -74,6 +89,9 @@ Gallery.html
                 window.open(src, "_blank");
             }
         </script>
+        <footer>
+            Designed & Developed by S STAR ASHIL)
+        </footer>
     </body>
 </html>
 
@@ -81,8 +99,9 @@ Gallery.html
 
 ## OUTPUT:
 
-![alt text](image.png)
-![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
+
 
 ## RESULT:
 The program for designing an interactive image gallery using HTML, CSS and JavaScript is executed successfully.
