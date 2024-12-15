@@ -79,6 +79,7 @@ Gallery.html
         <div class="Gallery">
             <img src="1.jpg" width="200" height="200" onclick="openImage(this.src)">
             <img src="2.jpg" width="200" height="200" onclick="openImage(this.src)">
+            <img src="3.jpg" width="200" height="200" onclick="openImage(this.src)">
             <img src="5.avif" width="200" height="200" onclick="openImage(this.src)">
             <img src="4.png" width="200" height="200" onclick="openImage(this.src)">
             
@@ -94,7 +95,6 @@ Gallery.html
         </footer>
     </body>
 </html>
-
 ```
 
 ## OUTPUT:
